@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="enter">
+         <input type="text" id="textinput" placeholder="0" value="0">
+         <div class ="his"><section id="history"></section></div>
+        </section>
+   <section class="1stbuttnln">
+    <div class="calc-row">
+       <button class="clear" onclick=" allclear()">C</button>
+       <button class="backspace" onclick="oneclear()">&larr;</button>
+       <button class="divide "  onclick="operator('divide')">&divide;</button>
+    </div>
+   </section> 
+<section class="2ndbuttnln">
+    <div class="calc-row">
+   <input class="clear" type="button" name="1" value="1" onclick="addval(1)">
+       
+   <input class="clear"type="button" name="2" value="2" onclick="addval(2)">
+   <input type="button" class="clear"name="3" value="3" onclick="addval(3)">
+
+
+   <input class="clear" type="button" name="multi" onclick="operator('multi')" value="&times;">
+</div>
+</section>
+<section class="2ndbuttnln">
+    <div  class="calc-row">
+   <input class="clear" type="button" name="4" value="4" onclick="addval(4)">
+   <input  class="clear" type="button" name="5" value="5" onclick="addval(5)">
+   <input class="clear" type="button" name="6" value="6" onclick="addval(6)">
+   <input class="clear" type="button" name="minus" onclick="operator('minus')" value="&minus;">
+
+</div>
+</section>
+<section class="2ndbuttnln">
+    <div class="calc-row">
+       
+    <input class="clear" type="button" name="7" value="7" onclick="addval(7)">
+    <input class="clear" type="button" name="8" value="8" onclick="addval(8)">
+    <input class="clear" type="button" name="9" value="9" onclick="addval(9)">
+    <input class="clear" type="button" name="plus" onclick="operator('plus')" value="&plus;">
+ 
+ </div>
+ </section>
+
+
+ <section class="calc-row">
+   
+    <input  class="lastbuttnln" type="button" name="0" value="0" onclick="addval(0)">
+    <input  class="lastbuttnln" onclick="calculate();"  type="submit" name="equalto" value="&equals;">
+   </section>
+</div>
+
+<script src="script.js">
+
+
+</script>
+
+
+
+</body>
+</html>
