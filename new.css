@@ -13,7 +13,7 @@ html{
 }
 body{
  align-items: center;
- background: linear-gradient(320deg,#eb92be,#ffef78,#63c9b4);
+ background: linear-gradient(320deg,#AA77FF,#C9EEFF,#97DEFF,#62CDFF);
  display: flex;
  font-family: 'dosis',sans-serif;
  font-display:swap;
@@ -60,7 +60,7 @@ padding: 20px 30px;
   margin: auto;
   width: 80%;
   text-align: center;
-    background: linear-gradient(320deg,#f391c4,#63c9b4);
+    background: linear-gradient(320deg,#AA77FF,##62CDFF);
 }
 
 .calc-row{
@@ -77,7 +77,7 @@ padding: 20px 30px;
     flex-basis:20%;
     height:50px;
     font-size: x-large;
-    color: rgb(50, 88, 120);
+    color: C9EEFF;
     font-style: italic;
 
 }
@@ -92,7 +92,7 @@ padding: 20px 30px;
   flex-basis:45%;
   height:50px;
   font-size: x-large;
-  color: rgb(50, 88, 120);
+  color: #AA77FF;
   font-style: italic;
 
 }
